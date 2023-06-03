@@ -14,18 +14,18 @@ import java.util.List;
 @Data
 public class Staff extends Entity {
 
-    String name;
+    private String name;
 
     // 值对象
-    StaffType staffType;
+    private StaffType staffType;
 
     // 值对象
-    StaffStatus staffStatus;
+    private StaffStatus staffStatus;
 
-    Integer level;
+    private Integer level;
 
     // 实体
-    List<RelationShip> relationShips;
+    private List<RelationShip> relationShips;
 
     public Staff create() {
         this.staffStatus = StaffStatus.ENABLE;
