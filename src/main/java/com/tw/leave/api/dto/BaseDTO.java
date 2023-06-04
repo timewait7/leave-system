@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class BaseDTO {
+public abstract class BaseDTO {
 
     protected Long id;
 
